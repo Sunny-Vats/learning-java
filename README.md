@@ -26,7 +26,7 @@ Complete the following tasks to setup Java Development Environment:
 > [JDK16 Download Link](http://oracle.com/java/technologies/javase-jdk16-downloads.html) : Click on link and find your setup according to your Operating system architecture (x86/x64/macOS), if installing JDK8. By the time of writing this repo, JDK16 is the latest version of JDK and it does not have support for x86 architecture type OS. You can download latest by using [This link](http://oracle.com/java/technologies/javase-downloads.html).
 
 - The download page will look something like this for JDK16:
-![JDK Download Page](JDK%20download%20page.jpg)
+![JDK Download Page](images/JDK%20download%20page.jpg)
 There are two options for both  Mac OS and Windows OS. Either you can use installer(i.e `.dmg` or `.exe`) or you can download compressed archive(i.e `.tar.gz` or `.zip`) file respectively.
 
 - If you have downloaded installer, then installation can be done by clicking on downloaded installer and following installer guide. Just click next next, accept terms and conditions and enter your admin password, if prompted. On Mac OS, the setup file might get warning on opening that the file is downloaded from internet and might be insecure to open. Just ignore it and open the `.dmg` file using `control + right click` and select open. This will bypass the warning.
@@ -38,11 +38,11 @@ There are two options for both  Mac OS and Windows OS. Either you can use instal
   - [ ] On Mac OS, you don't have to set PATH as it automatically picks latest JDK on its own.
   - [ ] On Windows, click on Windows icon at bottom-left corner and type `Edit the system environment variable`. Open it, and choose `Environment Variable...` from `Advanced` tab.
   > It will look something like this:
-    ![System Properties](IMG_6557.JPG)
+    ![System Properties](images/IMG_6557.JPG)
 
   - [ ]  A new window will open with two fields marked as User and System variables. Click on `Path variable` in System variables list and click on edit.
   > It will look something like this:
-    ![System Properties](IMG_6558.JPG)
+    ![System Properties](images/IMG_6558.JPG)
   
   - [ ] The new window will be prompted with multiple options on right side. Click on `New` and paste the path of `bin` directory of JDK in program files.
   - [ ] The path will look like this: `C:\Program Files\Java\jdk-16.0.2.jdk\bin`. You can also create another variable with name exactly `JAVA_HOME` and then set path to `%JAVA_HOME%\bin` as you can see in above image for JDK8 installed on my machine. Just change the version number accordingly.
